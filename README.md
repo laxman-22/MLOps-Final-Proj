@@ -58,6 +58,9 @@ This project relies on the AWS Amplify stack:
 - Cognito, DynamoDB, AppSync
 - All AWS services used are **compliant with SOC 2, ISO 27001, GDPR, and HIPAA** by default (see [AWS Compliance Programs](https://aws.amazon.com/compliance/programs/)).
 
+### Code Quality and Testing
+Code followed standard best practices, accounting for redundancies and containing sufficient comments to follow. Testing was mainly done manually but throughly, with intent to encompass main issues and potential edge cases.
+
 ### Summary
 
 The application adheres to modern cloud and identity best practices. All user data is securely authenticated, scoped per user, and stored responsibly. Upon integration of AI, additional safeguards will be applied to ensure ethical and compliant use of language models.
